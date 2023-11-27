@@ -1,5 +1,4 @@
-import User from '../schema/user-schema.js' ;
-
+const User = require('../schema/user-schema.js')
 
 const addUser = async (req,res) => {
     const user = req.body ;
@@ -15,4 +14,4 @@ res.status(201).json(newUser) ;
 }
 
 
-export default addUser ;
+module.exports = addUser ;

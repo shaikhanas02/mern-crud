@@ -1,4 +1,4 @@
-import mongoose from "mongoose"
+const mongoose = require("mongoose") ;
 
 
 
@@ -16,4 +16,4 @@ const URL = `mongodb+srv://${username}:${password}@cluster0.styeuxh.mongodb.net/
 }
 
 
-export default Connection ;
+module.exports = Connection ;
